@@ -1,0 +1,17 @@
+@font-face {
+  font-family: SimsponsFont;
+  src: local('fonts'), url(./fonts/Simpsonfont.otf) format('OpenType');
+}
+body {
+  margin: 0;
+  font-family: 'SimsponsFont',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: SimsponsFont,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
